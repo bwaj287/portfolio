@@ -1,5 +1,3 @@
-# portfolio
-A curated portfolio of data visualization projects exploring urban policy, historical data redesigns, and demographic analysis. Built with HTML/CSS for MBAI 5400G.
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -128,7 +126,7 @@ A curated portfolio of data visualization projects exploring urban policy, histo
     <div class="grid">
 
         <article class="card">
-            <img src="work1.png" alt="Storyboard of Toronto Commuters" class="card-img">
+            <img src="work1.jpg" alt="Storyboard of Toronto Commuters" class="card-img">
             <div class="card-content">
                 <span class="tag">Scrollytelling & Storyboard</span>
                 <h3>The Great Re-Commute</h3>
@@ -142,7 +140,7 @@ A curated portfolio of data visualization projects exploring urban policy, histo
         </article>
 
         <article class="card">
-            <img src="work2.png" alt="Minard Map Redesign" class="card-img">
+            <img src="work2.jpg" alt="Minard Map Redesign" class="card-img">
             <div class="card-content">
                 <span class="tag">Historical Data Analysis</span>
                 <h3>Deconstructing the Grande Armée</h3>
