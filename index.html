@@ -13,7 +13,7 @@
         /* --- VARIABLES --- */
         :root {
             --primary: #2c3e50;       /* Dark Blue */
-            --accent: #e67e22;        /* Burnt Orange (Wes Anderson style) */
+            --accent: #e67e22;        /* Burnt Orange */
             --bg-color: #f8f9fa;      /* Light Grey */
             --text-main: #333;
             --text-light: #666;
@@ -94,6 +94,7 @@
             overflow: hidden;
             height: 240px;
             border-bottom: 1px solid #eee;
+            background-color: #eee; /* Grey placeholder if image fails */
         }
 
         .card-img {
@@ -187,25 +188,3 @@
 
     <div class="container">
         <div class="grid">
-
-            <article class="card">
-                <div class="img-container">
-                    <a href="attachments/work1.pdf" target="_blank">
-                        <img src="attachments/work1.jpg" alt="Storyboard of Toronto Commuters" class="card-img">
-                    </a>
-                </div>
-                <div class="card-content">
-                    <span class="tag">Scrollytelling</span>
-                    <h3><a href="attachments/work1.pdf" target="_blank">The Great Re-Commute</a></h3>
-                    <p>
-                        <strong>The Challenge:</strong> Post-pandemic Toronto faces a clash between RTO mandates and WFH preferences.
-                        <br><br>
-                        <strong>The Solution:</strong> A narrative storyboard following three distinct characters—Amy, Raj, and Leonard—to humanize the abstract data of urban occupancy rates.
-                    </p>
-                    <a href="attachments/work1.pdf" target="_blank" class="project-link">View Storyboard (PDF) &rarr;</a>
-                </div>
-            </article>
-
-            <article class="card">
-                <div class="img-container">
-                    <a href="attachments/work2.pdf" target="_blank
